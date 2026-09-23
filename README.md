@@ -1,59 +1,15 @@
-# Mr Clean+ - Professional Cleaning Services Website
+# Mr Clean+ · dépôt partiel
 
-A professional bilingual (French/English) website for a Montreal-based cleaning company.
+Ce dépôt rassemble actuellement **la configuration et des notes de préparation** d’un site web bilingue (français/anglais) pour une entreprise de nettoyage à Montréal. Il ne contient **pas encore le code source de l’interface**.
 
-## Features
+## Contenu disponible
 
-- 🌐 Bilingual support (French/English) with automatic language detection
-- 📱 Mobile-first responsive design
-- ♿ Accessibility best practices
-- 🎨 Modern, clean, and trustworthy design
-- 📝 SEO-friendly structure with meta tags in both languages
-- 📋 Contact forms, quote requests, and career applications
+- `package.json` et `package-lock.json` : dépendances prévues pour un projet Next.js / React / TypeScript.
+- `next.config.js`, `tsconfig.json`, `postcss.config.js` : fichiers de configuration.
+- `SETUP.md` : état du dépôt et éléments nécessaires avant une exécution locale.
 
-## Getting Started
+## État réel
 
-1. Install dependencies:
-```bash
-npm install
-```
+Les dossiers applicatifs tels que `src/` et `public/` sont absents de ce dépôt. **Il n’est donc pas possible de lancer ou de compiler le site à partir de ce dépôt seul.** La présence de dépendances dans `package.json` ne démontre pas que toutes les fonctionnalités décrites précédemment sont publiées ici.
 
-2. Run the development server:
-```bash
-npm run dev
-```
-
-3. Open [http://localhost:3000](http://localhost:3000) in your browser.
-
-## Project Structure
-
-- `/src/app` - Next.js App Router pages
-- `/src/components` - Reusable React components
-- `/src/lib` - Utility functions and configurations
-- `/src/locales` - Translation files (French/English)
-
-## Services Offered
-
-- Residential Cleaning
-- Commercial Cleaning (offices, retail, clinics)
-- Airbnb/Short-term Rental Cleaning
-- Trained Cleaning Staff Placement
-
-## Technologies
-
-- Next.js 14+ (App Router)
-- TypeScript
-- Native CSS (global utility classes in src/app/globals.css)
-- React Icons
-
-## Deployment
-
-The easiest way to deploy is using [Vercel](https://vercel.com):
-
-```bash
-npm run build
-```
-
-## License
-
-Private - All rights reserved
+Ce dépôt sera documenté plus en détail lorsque le code partageable aura été ajouté et vérifié. Si le projet comporte des éléments fournis par le client, leur publication nécessite son autorisation et l’exclusion des secrets et données privées.
